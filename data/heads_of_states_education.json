@@ -1,0 +1,701 @@
+{
+    "countries": [
+        
+        {
+            "country_code": "CU",
+            "country": "Cuba",
+            "secondary": "1",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "JO",
+            "country": "Jordan",
+            "secondary": "3",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "KP",
+            "country": "North Korea",
+            "secondary": "2",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "BN",
+            "country": "Brunei",
+            "secondary": "2",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "2"
+        },
+        {
+            "country_code": "OM",
+            "country": "Oman",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "1"
+        },
+        {
+            "country_code": "LY",
+            "country": "Libya",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "2"
+        },
+        {
+            "country_code": "BH",
+            "country": "Bahrain",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "IR",
+            "country": "Iran",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "2",
+            "all": "3"
+        },
+        {
+            "country_code": "MA",
+            "country": "Morocco",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "1",
+            "all": "4"
+        },
+        {
+            "country_code": "TG",
+            "country": "Togo",
+            "secondary": "0",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "YE",
+            "country": "Yemen",
+            "secondary": "0",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "2"
+        },
+        {
+            "country_code": "GQ",
+            "country": "Equatorial Guinea",
+            "secondary": "2",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "AO",
+            "country": "Angola",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "1",
+            "all": "2"
+        },
+        {
+            "country_code": "AE",
+            "country": "U.A.E.",
+            "secondary": "0",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "2"
+        },
+        {
+            "country_code": "EG",
+            "country": "Egypt",
+            "secondary": "2",
+            "undergraduate": "1",
+            "postgraduate": "1",
+            "all": "5"
+        },
+        {
+            "country_code": "CM",
+            "country": "Cameroon",
+            "secondary": "1",
+            "undergraduate": "1",
+            "postgraduate": "0",
+            "all": "2"
+        },
+        {
+            "country_code": "SY",
+            "country": "Syria",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "3",
+            "all": "6"
+        },
+        {
+            "country_code": "GM",
+            "country": "Gambia",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "2"
+        },
+        {
+            "country_code": "KW",
+            "country": "Kuwait",
+            "secondary": "3",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "5"
+        },
+        {
+            "country_code": "MM",
+            "country": "Myanmar",
+            "secondary": "2",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "5"
+        },
+        {
+            "country_code": "CN",
+            "country": "China",
+            "secondary": "1",
+            "undergraduate": "1",
+            "postgraduate": "2",
+            "all": "6"
+        },
+        {
+            "country_code": "SZ",
+            "country": "Swaziland",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "4"
+        },
+        {
+            "country_code": "UG",
+            "country": "Uganda",
+            "secondary": "2",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "6"
+        },
+        {
+            "country_code": "BF",
+            "country": "Burkina Faso",
+            "secondary": "3",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "7"
+        },
+        {
+            "country_code": "IQ",
+            "country": "Iraq",
+            "secondary": "4",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "6"
+        },
+        {
+            "country_code": "SD",
+            "country": "Sudan",
+            "secondary": "1",
+            "undergraduate": "1",
+            "postgraduate": "0",
+            "all": "4"
+        },
+        {
+            "country_code": "UZ",
+            "country": "Uzbekistan",
+            "secondary": "0",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "4"
+        },
+        {
+            "country_code": "QA",
+            "country": "Qatar",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "3"
+        },
+        {
+            "country_code": "SA",
+            "country": "Saudi Arabia",
+            "secondary": "0",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "5"
+        },
+        {
+            "country_code": "TD",
+            "country": "Chad",
+            "secondary": "2",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "6"
+            
+        },
+        {
+            "country_code": "KZ",
+            "country": "Kazakhstan",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "1"
+        },
+        {
+            "country_code": "DJ",
+            "country": "Djibouti",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "0",
+            "all": "2"
+        },
+        {
+            "country_code": "TM",
+            "country": "Turkmenistan",
+            "secondary": "0",
+            "undergraduate": "2",
+            "postgraduate": "1",
+            "all": "4"
+        },
+        {
+            "country_code": "ET",
+            "country": "Ethiopia",
+            "secondary": "2",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "4"
+        },
+        {
+            "country_code": "MR",
+            "country": "Mauritania",
+            "secondary": "2",
+            "undergraduate": "4",
+            "postgraduate": "0",
+            "all": "8"
+        },
+        {
+            "country_code": "RW",
+            "country": "Rwanda",
+            "secondary": "1",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "4"
+        },
+        {
+            "country_code": "ER",
+            "country": "Eritrea",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "0",
+            "all": "1"
+        },
+        {
+            "country_code": "TJ",
+            "country": "Tajikistan",
+            "secondary": "0",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "2"
+        },
+        {
+            "country_code": "KH",
+            "country": "Cambodia",
+            "secondary": "1",
+            "undergraduate": "0",
+            "postgraduate": "1",
+            "all": "6"
+        },
+        {
+            "country_code": "FJ",
+            "country": "Fiji",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "3",
+            "all": "5"
+        },
+        {
+            "country_code": "LA",
+            "country": "Laos",
+            "secondary": "2",
+            "undergraduate": "4",
+            "postgraduate": "0",
+            "all": "12"
+        },
+        {
+            "country_code": "VE",
+            "country": "Venezuela",
+            "secondary": "1",
+            "undergraduate": "5",
+            "postgraduate": "2",
+            "all": "8"
+        },
+        {
+            "country_code": "AL",
+            "country": "Algeria",
+            "secondary": "2",
+            "undergraduate": "2",
+            "postgraduate": "0",
+            "all": "9"
+        },
+        {
+            "country_code": "BY",
+            "country": "Belarus",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "1",
+            "all": "2"
+        },
+        {
+            "country_code": "AZ",
+            "country": "Azerbaijan",
+            "secondary": "",
+            "undergraduate": "2",
+            "postgraduate": "2",
+            "all": "4"
+        },
+        {
+            "country_code": "spacer"
+        },
+        {
+            "country_code": "spacer"
+        },
+        {
+            "country_code": "ES",
+            "country": "Spain",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "3",
+            "postgraduate": "2",
+            "all": "6"
+        },
+        {
+            "country_code": "SG",
+            "country": "Singapore",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "2",
+            "all": "3"
+        },
+        {
+            "country_code": "FI",
+            "country": "Finland",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "2",
+            "postgraduate": "4",
+            "all": "6"
+        },
+        {
+            "country_code": "SE",
+            "country": "Sweden",
+            "is_democracy": "1",
+            "secondary": "3",
+            "undergraduate": "5",
+            "postgraduate": "2",
+            "all": "10"
+        },
+        {
+            "country_code": "MY",
+            "country": "Malaysia",
+            "secondary": "0",
+            "undergraduate": "3",
+            "postgraduate": "2",
+            "all": "5"
+        },
+        {
+            "country_code": "GH",
+            "country": "Ghana",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "0",
+            "postgraduate": "6",
+            "all": "11"
+        },
+        {
+            "country_code": "GY",
+            "country": "Guyana",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "3",
+            "postgraduate": "4",
+            "all": "7"
+        },
+        {
+            "country_code": "CY",
+            "country": "Cyprus",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "5",
+            "postgraduate": "1",
+            "all": "6"
+        },
+        {
+            "country_code": "RU",
+            "country": "Russia",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "6",
+            "postgraduate": "0",
+            "all": "8"
+        },
+        {
+            "country_code": "AU",
+            "country": "Australia",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "9",
+            "postgraduate": "1",
+            "all": "12"
+        },
+        {
+            "country_code": "IN",
+            "country": "India",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "5",
+            "postgraduate": "7",
+            "all": "13"
+        },
+        {
+            "country_code": "CL",
+            "country": "Chile",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "2",
+            "postgraduate": "8",
+            "all": "10"
+        },
+        {
+            "country_code": "DE",
+            "country": "Germany",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "3",
+            "postgraduate": "5",
+            "all": "8"
+        },
+        {
+            "country_code": "KR",
+            "country": "South Korea",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "7",
+            "postgraduate": "2",
+            "all": "10"
+        },
+        {
+            "country_code": "FR",
+            "country": "France",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "6",
+            "all": "7"
+        },
+        {
+            "country_code": "JM",
+            "country": "Jamaica",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "5",
+            "postgraduate": "2",
+            "all": "9"
+        },
+        {
+            "country_code": "AT",
+            "country": "Austria",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "3",
+            "postgraduate": "7",
+            "all": "10"
+        },
+        {
+            "country_code": "ZA",
+            "country": "South Africa",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "4",
+            "postgraduate": "3",
+            "all": "9"
+        },
+        {
+            "country_code": "NL",
+            "country": "Netherlands",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "6",
+            "postgraduate": "5",
+            "all": "12"
+        },
+        {
+            "country_code": "BE",
+            "country": "Belgium",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "2",
+            "postgraduate": "12",
+            "all": "16"
+        },
+        {
+            "country_code": "CA",
+            "country": "Canada",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "1",
+            "postgraduate": "8",
+            "all": "9"
+        },
+        {
+            "country_code": "DK",
+            "country": "Denmark",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "2",
+            "postgraduate": "7",
+            "all": "13"
+        },
+        {
+            "country_code": "IE",
+            "country": "Ireland",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "8",
+            "postgraduate": "1",
+            "all": "12"
+        },
+        {
+            "country_code": "NZ",
+            "country": "New Zealand",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "1",
+            "postgraduate": "5",
+            "all": "13"
+        },
+        {
+            "country_code": "GB",
+            "country": "United Kingdom",
+            "is_democracy": "1",
+            "secondary": "3",
+            "undergraduate": "6",
+            "postgraduate": "4",
+            "all": "13"
+        },
+        {
+            "country_code": "GR",
+            "country": "Greece",
+            "secondary": "2",
+            "undergraduate": "5",
+            "postgraduate": "6",
+            "all": "15"
+        },
+        {
+            "country_code": "UA",
+            "country": "Ukraine",
+            "secondary": "0",
+            "undergraduate": "3",
+            "postgraduate": "1",
+            "all": "4"
+        },
+        {
+            "country_code": "TR",
+            "country": "Turkey",
+            "secondary": "4",
+            "undergraduate": "9",
+            "postgraduate": "6",
+            "all": "19"
+        },
+        {
+            "country_code": "BR",
+            "country": "Brazil",
+            "is_democracy": "1",
+            "secondary": "5",
+            "undergraduate": "8",
+            "postgraduate": "2",
+            "all": "17"
+        },
+        {
+            "country_code": "CO",
+            "country": "Colombia",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "5",
+            "postgraduate": "10",
+            "all": "17"
+        },
+        {
+            "country_code": "IT",
+            "country": "Italy",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "10",
+            "postgraduate": "11",
+            "all": "22"
+        },
+        {
+            "country_code": "JP",
+            "country": "Japan",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "21",
+            "postgraduate": "4",
+            "all": "26"
+        },
+        {
+            "country_code": "NO",
+            "country": "Norway",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "6",
+            "postgraduate": "4",
+            "all": "14"
+        },
+        {
+            "country_code": "US",
+            "country": "United States",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "6",
+            "postgraduate": "5",
+            "all": "11"
+        },
+        {
+            "country_code": "MX",
+            "country": "Mexico",
+            "is_democracy": "1",
+            "secondary": "1",
+            "undergraduate": "5",
+            "postgraduate": "5",
+            "all": "11"
+        },
+        {
+            "country_code": "CR",
+            "country": "Costa Rica",
+            "is_democracy": "1",
+            "secondary": "2",
+            "undergraduate": "3",
+            "postgraduate": "7",
+            "all": "14"
+        },
+        {
+            "country_code": "CH",
+            "country": "Switzerland",
+            "is_democracy": "1",
+            "secondary": "0",
+            "undergraduate": "18",
+            "postgraduate": "21",
+            "all": "42"
+        }
+    ]
+}

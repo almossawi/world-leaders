@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		
+		<meta property="og:title" content="How educated are world leaders?" /> 
+		<meta property="og:description" content="In democracies, the driver of change is typically elections; in autocracies, it is typically biology. It is often said that autocratic leaders are therefore less likely to be educated. Leaders' education level has been found to be a positive predictor of, among other things, economic growth..." /> 
+		<meta property="og:image" content="http://skyrill.com/leaders/images/thumb.png" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://skyrill.com/leaders/" />
+		<meta property="og:site_name" content="How educated are world leaders?" />
+	
+		<title>How educated are world leaders?</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
+
+		<script src="http://d3js.org/d3.v2.js"></script>
+		<script type="text/javascript" src="js/global.js"></script>
+   		   		
+   		<link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
+   		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2292389-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body id="top">
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=510737545623157";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- show histdata -->
+		<div class="title">How educated are world leaders?</div>
+		<div id="hos_data">
+			<p style="margin-bottom:30px">In democracies<sup>1</sup>, the driver of change is typically elections; in autocracies, it is typically biology.  It is often said that autocratic leaders are therefore less likely to be educated.  Leaders' education level has been found to be a positive predictor of, among other things, economic growth<sup>2</sup>.  <!--Acton famously wrote that <span style="font-style:italic">"[p]ower tends to corrupt, and absolute power corrupts absolutely"</span>.  Political longevity can be indicative of absolute rule.  -->  Here's a look at the tenure of around 700 leaders<sup>3</sup> sorted by political longevity in the world's autocratic and anocratic countries<sup>3</sup>, along with a selection from present-day democracies<sup>5</sup>, since 1950 or thereabouts.  For each country, the leader who has ruled the longest, contiguously, is shown.  The time in office (in years) may be off by a few months in either direction due to rounding.  Hover over a bar for more details.</p>
+			
+			<div id="country_name_big">
+				<div id="content"></div>
+				<div id="sparklines">
+					<p class='education_level_title'>Time-in-office over time</p>
+					<div id="geezers_name">&nbsp;</div>
+					<div id="content_plot"></div>
+					<div class='mouseover_text'>dots give a sense of the number of leaders; mouse-over for more info.</div>
+				</div>
+			</div>
+			<div id="seperator"></div>
+			<span class="content">
+				<svg width="1060" height="400">
+				</svg>
+			</span>
+			<div style="clear:both"></div>
+						
+			<div class="footer">
+				<!--<div class="key orange"></div> Maximum term limit, either existing or later established.<br />-->
+				<div class="key orange"></div> Median time in office.<br />
+			</div>
+				
+
+			<p style="margin-top:60px;margin-bottom:30px">Here's a look at the number of leaders with an advanced degree, e.g. Master's or Doctorate, or equivalent - such as certain law degrees in some countries - for each of the above countries during the same time period.  Lack of education is not necessarily indicative of ineptness, though it may be.  It may also be the result of extenuating life circumstances or lack of means, as in the case of former British Prime Minister James Callaghan, for example.<!--, or former Algerian President Mohamed Boudiaf.--></p>
+			
+			<div id="country_name_big2">
+				<div id="content2"></div>
+				<div id="sparklines2">
+					<p class='education_level_title'>Education level over time</p>
+					<div id="geezers_name2">&nbsp;</div>
+					<div id="content_plot2"></div>
+					<div class='mouseover_text'>dots include leaders who may have been in office more than once; mouse-over for more info.</div>
+				</div>
+			</div>
+			<div id="seperator2" class="seperator_edu"></div>
+			<span class="content2">
+				<svg width="1060" height="320">
+				</svg>
+			</span>
+			<div style="clear:both"></div>
+			
+			<div class="footer">
+				<div class="key grey"></div> Result is based on five or fewer observations.<br />
+			</div>
+			
+			<p style="margin-top:30px">Canada and France have had the highest percentage of leaders with graduate degrees.  Switzerland has had the most <i>number</i> of presidents with graduate degrees, 21 out of 42, followed by Belgium, with 12 out of 16.</p>
+			
+			<p style="margin-bottom:30px">Lowering the bar a bit, here's a look at the number of leaders with at least an academic college degree of some sort.</p>
+			
+			<div id="country_name_big3">
+				<div id="content3"></div>
+				<div id="sparklines3">
+					<p class='education_level_title'>Education level over time</p>
+					<div id="geezers_name3">&nbsp;</div>
+					<div id="content_plot3"></div>
+					<div class='mouseover_text'>dots include leaders who may have been in office more than once; mouse-over for more info.</div>
+				</div>
+			</div>
+			<div id="seperator3" class="seperator_edu"></div>
+			<span class="content3">
+				<svg width="1060" height="320">
+				</svg>
+			</span>
+			<div style="clear:both"></div>
+			
+			<div class="footer">
+				<div class="key grey"></div> Result is based on five or fewer observations.
+			</div>
+			
+			
+			<p style="margin-top:30px;margin-bottom:30px">Here's a look at the number of leaders who have at least completed secondary school.  Saudi Arabia and the U.A.E. stand out as countries that have yet to have a leader who has completed secondary school.</p>
+			
+			<div id="country_name_big4">
+				<div id="content4"></div>
+				<div id="sparklines4">
+					<p class='education_level_title'>Education level over time</p>
+					<div id="geezers_name4">&nbsp;</div>
+					<div id="content_plot4"></div>
+					<div class='mouseover_text'>dots include leaders who may have been in office more than once; mouse-over for more info.</div>
+				</div>
+			</div>
+			<div id="seperator4" class="seperator_edu"></div>
+			<span class="content4">
+				<svg width="1060" height="320">
+				</svg>
+			</span>
+			<div style="clear:both"></div>
+			
+			<div class="footer">
+				<div class="key grey"></div> Result is based on five or fewer observations.<br />
+				<p style="padding-top:40px;padding-bottom:10px">
+				1. &nbsp;Defined in the broadest sense of the word.<br />
+				2. &nbsp;Timothy Besley and Jose G. Montalvo, "Do Educated Leaders Matter?", 2009<br />
+				3. &nbsp;Defined as the highest executive authority, with actual powers, whose rule extended for six months or more.<br />
+				4. &nbsp;Countries that are designated <i>not free</i> in Freedom House's <a href="http://www.freedomhouse.org">Freedom in the World 2012 report</a>, yet still democracies are excluded.<br />
+				5. &nbsp;Those designated <i>autocratic</i> in the <a href="http://www.systemicpeace.org/polity/polity4.htm">Center for Systemic Peace's State Fragility Index and Matrix</a>.<br />
+				&dagger; &nbsp; Maximum consecutive years allowed; either preexisting or later established.
+				</p>
+			</div>
+			
+			<div class="footer" style="margin-top:30px;padding-top:15px;font-size:12px;border-top:1px solid #cccccc">
+				<div style="float:left;width:940px;height:120px">
+					<a href="http://almossawi.com">ALI ALMOSSAWI</a> &middot; ali /at/ skyrill /dot/ com &middot; December 2012 &middot; <a href="http://creativecommons.org/licenses/by-sa/3.0/">Attribution-ShareAlike</a> &middot; <a href="http://www.skyrill.com/blog/2012/12/21/how-educated-are-world-leaders/">Blog post</a> &middot; <a href="http://blog.visual.ly/20-great-interactive-visualizations-of-2012/">20 great interactive visualizations of 2012</a><br /><br />
+					Sources: Profiles of People in Power (Europa Publications, 2003), <a href="http://confinder.richmond.edu/">Constitution Finder</a>, Encyclopædia Britannica, Wikipedia and others.<br />
+					Thanks to Timothy Besley for allowing me to cross-check some of the data with his dataset.  Discrepancies are noted in the .json files and are all to do with law degrees in different provinces and countries.  Unknowns, people whom I couldn't find any information on, are also noted therein; feel free to get in touch to report any errors or omissions.
+				</div>
+				
+				<div style="float:right;width:300px;height:120px">
+					<div style="float:right"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://skyrill.com/leaders" data-via="alialmossawi" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+					<div style="float:right;padding-right:10px" class="fb-like" data-href="http://skyrill.com/leaders" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-colorscheme="light"></div>
+				
+					<div style="clear:both"></div>
+					<div id="visually_twitter">1,629</div>
+					<div id="visually_fb">644</div>
+					<div id="visually_label"><a href="http://visual.ly/how-educated-are-world-leaders?view=true">visual.ly stats</a>:</div>
+				</div>
+					
+			</div>
+					
+		</div>
+	</body>
+</html>
