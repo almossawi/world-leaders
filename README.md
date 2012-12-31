@@ -1,7 +1,5 @@
-heads_of_state_edu_levels
-=========================
-
 How educated are world leaders?
+=========================
 
 http://skyrill.com/leaders
 
