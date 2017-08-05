@@ -1,6 +1,6 @@
 How educated are world leaders?
 =========================
 
-http://skyrill.com/leaders
+http://almossawi.com/leaders/
 
 Feel free to use/reuse/adapt the data and code.
